@@ -10,7 +10,7 @@ print(new_list)
 chances=6
 gameover=False
 while not gameover:
-    guesslatter=input(" 🤔 Guess a latter:")
+    guesslatter=input(" 🤔 Guess a latter Please:")
 
     for position in range(len(choosed)):
         latter=choosed[position]
